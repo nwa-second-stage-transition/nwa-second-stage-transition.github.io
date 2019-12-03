@@ -1,0 +1,105 @@
+/* Globals
+Green: #22ff2e
+light green: #90ffc8
+black: #515151
+light black: #7b7b7b
+background: #fefefe  */
+
+/* Base structure */
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  color: #515151;
+  background-color: #fefefe;
+  text-shadow: 0 .05rem .1rem #515151;
+  width: 100vw;
+  height: 100%;
+  background-image: url("../images/bg.png");
+  background-repeat: repeat;
+}
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #90ffc8;
+  text-decoration: none;
+}
+
+/* buttons */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #7b7b7b;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #90ffc8;
+  border: .05rem solid #90ffc8;
+}
+
+.btn-secondary:active {
+  color: #515151 !important;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #22ff2e !important;
+  border: .05rem solid #22ff2e !important;
+}
+
+/* Cover */
+.cover {
+  padding: 0 1.5rem;
+}
+.cover .btn-lg {
+  padding: .75rem 1.25rem;
+  font-weight: 700;
+}
+
+.main {
+  align-content: flex-start;
+}
+
+/* Footer */
+
+.mastfoot {
+  color: #515151;
+}
+
+/* styles */
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .nav-link {
+    font-size: 1.6rem;
+  }
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+#goals {
+  list-style-type: square;
+}
+
+#goals li {
+  padding: 0.5rem;
+}
+
+#findUs{
+  max-width: 200px;
+  height: auto;
+}
+.media-body {
+  width: 800px;
+  display: flex;
+}
+
+.faded {
+  background-color: rgba(250, 250, 250, 0.7);
+  border-radius: .25rem;
+}
