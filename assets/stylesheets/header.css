@@ -1,0 +1,82 @@
+.grid-container {
+  display: grid;
+}
+
+.grid-item {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.left-gutter {
+  grid-column: 1;
+  grid-row: 1 / span 3;
+}
+
+.right-gutter {
+  grid-column: 9;
+  grid-row: 1 / span 3;
+}
+.item3 {
+  grid-column: 9;
+  grid-row: 1;
+  justify-self: end;
+}
+.item4 {
+  display: grid;
+  grid-column: 2;
+  grid-row: 2 / span 2;
+  padding-bottom: 1rem;
+}
+
+.item5 {
+  grid-column: 3 / span 6;
+  grid-row: 2;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+}
+.item6 {
+  grid-column: 3 / span 6;
+  grid-row: 3;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+}
+ul.nav-links {
+padding: 0px;
+}
+ul.nav-links li {
+display: inline;
+list-style-type: none;
+text-align: center;
+}
+
+#logo {
+  width: 100px;
+  height: 100px;
+}
+.nav-links {
+  font-size: 1.5rem;
+  padding: .5rem .25rem;
+  font-weight: 700;
+  color: #90ffc8;
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+
+}
+
+.nav-link1:hover,
+.nav-link1:focus {
+  border-bottom-color: #90ffc8;
+}
+
+.active {
+  color: #22ff2e;
+  border-bottom-color: #22ff2e;
+}
+
+#fb-logo {
+  width: 1.25rem;
+  padding: 0px;
+  margin: 0px;
+}
