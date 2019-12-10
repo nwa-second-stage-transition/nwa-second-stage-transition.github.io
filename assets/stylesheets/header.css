@@ -59,7 +59,7 @@ text-align: center;
   font-size: 1.5rem;
   padding: .5rem .25rem;
   font-weight: 700;
-  color: #90ffc8;
+  color: #111111;
   background-color: transparent;
   border-bottom: .25rem solid transparent;
 
@@ -67,7 +67,7 @@ text-align: center;
 
 .nav-link1:hover,
 .nav-link1:focus {
-  border-bottom-color: #90ffc8;
+  border-bottom-color: #22ff2e;
 }
 
 .active {

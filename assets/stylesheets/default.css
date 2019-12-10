@@ -10,7 +10,7 @@ background: #fefefe  */
 body {
   display: -ms-flexbox;
   display: flex;
-  color: #515151;
+  color: #111111;
   background-color: #fefefe;
   text-shadow: 0 .05rem .1rem #515151;
   width: 100vw;
@@ -23,7 +23,7 @@ body {
 a,
 a:focus,
 a:hover {
-  color: #90ffc8;
+  color: #22ff2e;
   text-decoration: none;
 }
 
