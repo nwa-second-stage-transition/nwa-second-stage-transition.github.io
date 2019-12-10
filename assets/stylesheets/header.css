@@ -42,19 +42,29 @@
   justify-items: center;
   text-align: center;
 }
+
+#name {
+  color: #000000;
+  font-size: 2.25rem;
+  font-weight: 700;
+}
+/* Navigation */
+
+#logo {
+  width: 100px;
+  height: 100px;
+}
+
 ul.nav-links {
 padding: 0px;
 }
+
 ul.nav-links li {
 display: inline;
 list-style-type: none;
 text-align: center;
 }
 
-#logo {
-  width: 100px;
-  height: 100px;
-}
 .nav-links {
   font-size: 1.5rem;
   padding: .5rem .25rem;
@@ -62,21 +72,19 @@ text-align: center;
   color: #111111;
   background-color: transparent;
   border-bottom: .25rem solid transparent;
-
 }
 
 .nav-link1:hover,
 .nav-link1:focus {
-  border-bottom-color: #22ff2e;
+  border-bottom-color: #22ba2e;
 }
 
 .active {
-  color: #22ff2e;
-  border-bottom-color: #22ff2e;
+  border-bottom-color: #22ba2e;
 }
 
 #fb-logo {
-  width: 1.5rem;
+  width: 1.75rem;
   padding: 0px;
   margin: 0px;
 }
