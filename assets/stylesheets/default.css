@@ -10,6 +10,10 @@ body {
   background-repeat: repeat;
 }
 
+body{
+  font-size: 2vw;
+}
+
 img {
   max-width: 100%;
   display: block;
@@ -25,11 +29,9 @@ body {
   background-image: url("../images/casual-diversity-female-1600w.jpeg");
   background-repeat: no-repeat;
   background-position: 50% 0%; /* centers image horizontally*/
-  color: #111111;
 }
 
 #name {
-  color: #000000;
   font-size: 2.25rem;
   font-weight: 700;
 }
@@ -54,7 +56,6 @@ text-align: center;
   font-size: 1.5rem;
   padding: .5rem .25rem;
   font-weight: 700;
-  color: #111111;
   background-color: transparent;
   border-bottom: .25rem solid transparent;
 }
@@ -77,17 +78,10 @@ a:hover {
   font-weight: 700;
 }
 
-.hyper-link {
-  color: #444444;
-  text-decoration: underline dotted #22ba2e;
-  font-weight: 700;
-}
-
 /* buttons */
 .btn-secondary,
 .btn-secondary:hover,
 .btn-secondary:focus {
-  color: #111111;
   text-shadow: none; /* Prevent inheritance from `body` */
   background-color: #22ba2e;
   border: .05rem solid #22ba2e;
@@ -122,10 +116,6 @@ a:hover {
   width: 40rem;
   margin: 2rem auto;
   background-color: rgba(250, 250, 250, 0.7);
-}
-/* Footer */
-.mastfoot {
-  color: #111111;
 }
 
 /* styles */
