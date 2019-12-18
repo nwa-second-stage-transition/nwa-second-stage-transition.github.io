@@ -85,6 +85,8 @@ a:hover {
   text-shadow: none; /* Prevent inheritance from `body` */
   background-color: #22ba2e;
   border: .05rem solid #22ba2e;
+  color: #111111;
+  margin: 2rem;
 }
 
 .btn-secondary:active {
@@ -113,7 +115,7 @@ a:hover {
 }
 
 .card-custom {
-  width: 40rem;
+  max-width: 40rem;
   margin: 2rem auto;
   background-color: rgba(250, 250, 250, 0.7);
 }
