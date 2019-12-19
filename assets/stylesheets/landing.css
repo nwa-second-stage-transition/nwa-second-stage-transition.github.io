@@ -1,0 +1,10 @@
+/* landing page */
+body {
+  height: 100vh;
+}
+
+#landing  {
+  background-image: url("../images/casual-diversity-female-1600w.jpeg");
+  background-repeat: no-repeat;
+  background-position: 50% 0%; /* centers image horizontally*/
+}
