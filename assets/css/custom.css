@@ -1,0 +1,156 @@
+/************************* backgrounds ***********************************/
+.default {
+  background-color: #eee;
+}
+
+.landing { 
+  background-image: url("../images/casual-diversity-female-1600w.jpeg");
+  min-height: 100vh;    /* Full height */
+  width: 100%;
+  background-position: center;   /* Center and scale the image nicely */
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+main {
+  padding-bottom: 4rem;
+}
+
+/*********************** color ******************************************/
+.bg-color {
+  background-color: rgba(200, 255, 200,0.7);
+}
+
+.bg-white-transparent {
+  background-color: rgba(255, 255, 255,0.7);
+}
+
+/*********************** links ******************************************/
+.nav-link {
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+  color: #000000;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  border-bottom-color: #22ba2e;
+}
+
+.active {
+  font-weight: bold;
+  border-bottom-color: #22ba2e;  
+}
+
+a {
+  color: #222;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000000;
+}
+
+/************************** container *****************************************/
+.radius {
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+}
+
+/************************** images *****************************************/
+#logo {
+  width: 50px;
+  height: 50px;
+}
+
+.fb-img {
+  width: 150px;
+  height: 28px;
+}
+
+/************************** button ****************************************/
+.button {
+  background-color: #ffc439;
+  border: none;
+  color: #333;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
+}
+
+
+.button:hover {
+  background-color: #fc3;
+  color: #000;
+}
+
+/*************************** flex ******************************************/
+.order1 {
+  order: 1;
+}
+
+.order2 {
+  order: 2;
+}
+
+.order3 {
+  order: 3;
+}
+
+.d-inline {
+  display: inline-block;
+}
+
+/*************************** lists ******************************************/
+ul{
+  list-style: disc;
+  }
+
+/*************************** footer ******************************************/
+footer {
+  padding-top: 4rem;
+}
+.footer-name {
+  font-weight: bold;
+  font-size: 20px;
+}
+.footer-heading {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.footer-content {
+  font-size: 14px;
+}
+
+.copyright {
+  font-size: 12px;
+}
+
+/*************************** media break ******************************************/
+@media screen and (min-width: 570px){
+  .radius {
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .order1 {
+    order: 2;
+  }
+  .order2 {
+    order: 1;
+  }
+}
