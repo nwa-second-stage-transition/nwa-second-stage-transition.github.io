@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <body>
+    <div class="{{ page.layout }}">
+      <div class="bg-color">
+        {% include navigation.html %}
+      </div>
+      {{ content }}
+    </div>
+    <div class="bg-color">
+      {% include footer.html %}
+    </div>
+    {% include bootstrap-scripts.html %}
+  </body>
+</html>
