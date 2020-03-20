@@ -20,8 +20,12 @@ main {
 }
 
 /*********************** color ******************************************/
+
 .bg-color {
   background-color: rgba(200, 255, 200,0.7);
+}
+.bg-color {
+  background-color: #0d8ac4;
 }
 
 .bg-white-transparent {
@@ -119,6 +123,7 @@ ul{
 /*************************** footer ******************************************/
 footer {
   padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 .footer-name {
   font-weight: bold;
