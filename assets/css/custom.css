@@ -1,3 +1,7 @@
+/************************* carousel ***********************************/
+var carousel-office = document.querySelector('#carousel-office')
+var carousel = new bootstrap.Carousel(carousel-office)
+
 /************************* backgrounds ***********************************/
 .default {
   background-color: #eee;
