@@ -1,76 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
     
+        <url>
+        <loc>/</loc>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+       </url>
   
-    
       <url>
         <loc>/about</loc>
-        <changefreq>monthly</changefreq>
+        <changefreq>weekly</changefreq>
         <priority>1.0</priority>
        </url>
-    
   
-    
+         <url>
+        <loc>/services</loc>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+       </url> 
   
-    
+         <url>
+        <loc>/events</loc>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+       </url>
   
-    
+        <url>
+        <loc>/donate</loc>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+       </url>
+  
       <url>
         <loc>/connect</loc>
-        <changefreq>monthly</changefreq>
+        <changefreq>weekly</changefreq>
         <priority>1.0</priority>
        </url>
     
-  
-    
-      <url>
-        <loc>/donate</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-       </url>
-    
-  
-    
-      <url>
-        <loc>/events</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-       </url>
-    
-  
-    
-      <url>
-        <loc>/</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-       </url>
-    
-  
-    
-      <url>
-        <loc>/nwagives</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-       </url>
-    
-  
-    
-      <url>
-        <loc>/services</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-       </url>
-    
-  
-    
-      <url>
+       <url>
         <loc>/sitemap</loc>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
-       </url>
-    
-  
-    
+       </url> 
   
 </urlset>
