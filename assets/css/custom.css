@@ -62,7 +62,7 @@ a:hover {
   color: #000000;
 }
 
-.service:hover {
+.service:hover a {
   background-color: #22ba2e;
 }
 
