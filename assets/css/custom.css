@@ -1,91 +1,81 @@
 /************************* carousel ***********************************/
-var carousel-office = document.querySelector('#carousel-office')
-var carousel = new bootstrap.Carousel(carousel-office)
 
+var carousel-office=document.querySelector('#carousel-office') var carousel=new bootstrap.Carousel(carousel-office)
 /************************* backgrounds ***********************************/
+
 .default {
   background-color: #eee;
 }
-
-.landing { 
+.landing {
   background-image: url("../img/avenue-1920w.jpg");
-  min-height: 100vh;    /* Full height */
+  min-height: 100vh;
+  /* Full height */
   width: 100%;
-  background-position: center;   /* Center and scale the image nicely */
+  background-position: center;
+  /* Center and scale the image nicely */
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
-
 main {
   padding-bottom: 4rem;
 }
-
 /*********************** color ******************************************/
 
 .bg-color {
-  background-color: rgba(200, 255, 200,0.7);
+  background-color: rgba(200, 255, 200, 0.7);
 }
 .bg-color {
   background-color: #0d8ac4;
 }
-
 .bg-white-transparent {
-  background-color: rgba(255, 255, 255,0.9);
+  background-color: rgba(255, 255, 255, 0.9);
 }
-
 /*********************** links ******************************************/
+
 .nav-link {
   background-color: transparent;
   border-bottom: .25rem solid transparent;
   color: #000000;
 }
-
-.nav-link:hover,
-.nav-link:focus {
+.nav-link:hover, .nav-link:focus {
   border-bottom-color: #22ba2e;
 }
-
 .active {
   font-weight: bold;
-  border-bottom-color: #22ba2e;  
+  border-bottom-color: #22ba2e;
 }
-
 a {
   color: #222;
   text-decoration: none;
 }
-
 a:hover {
   color: #000000;
 }
-
 .service:hover {
   background-color: #7FFFD4;
 }
-
-
 /************************** container *****************************************/
+
 .radius {
   -moz-border-radius: 0px;
   -webkit-border-radius: 0px;
   border-radius: 0px;
 }
-
 /************************** images *****************************************/
+
 #logo {
   width: 50px;
   height: 50px;
 }
-
 .fb-img {
   width: 150px;
   height: 28px;
 }
-
 /************************** button ****************************************/
+
 .button {
   background-color: #ffc439;
   border: none;
@@ -100,36 +90,31 @@ a:hover {
   -webkit-border-radius: 30px;
   border-radius: 30px;
 }
-
-
 .button:hover {
   background-color: #fc3;
   color: #000;
 }
-
 /*************************** flex ******************************************/
+
 .order1 {
   order: 1;
 }
-
 .order2 {
   order: 2;
 }
-
 .order3 {
   order: 3;
 }
-
 .d-inline {
   display: inline-block;
 }
-
 /*************************** lists ******************************************/
-ul{
-  list-style: disc;
-  }
 
+ul {
+  list-style: disc;
+}
 /*************************** footer ******************************************/
+
 footer {
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -142,25 +127,22 @@ footer {
   font-weight: bold;
   font-size: 16px;
 }
-
 .footer-content {
   font-size: 14px;
 }
-
 .copyright {
   font-size: 12px;
 }
-
 /*************************** media break ******************************************/
-@media screen and (min-width: 570px){
+
+@media screen and (min-width: 570px) {
   .radius {
     -moz-border-radius: 15px;
     -webkit-border-radius: 15px;
     border-radius: 15px;
   }
 }
-
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
   .order1 {
     order: 2;
   }
